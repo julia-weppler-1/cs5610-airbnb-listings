@@ -1,0 +1,38 @@
+.listing-compact-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.listing-compact:hover .listing-compact-overlay {
+  opacity: 1;
+}
+
+.host-photo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.description {
+  max-height: 150px;
+  overflow: auto;
+}
+
+.compact-img {
+  height: 200px;
+}
+
+.compact-host {
+  font-size: 0.75rem;
+}
+
+.compact-price {
+  font-size: 0.85rem;
+}

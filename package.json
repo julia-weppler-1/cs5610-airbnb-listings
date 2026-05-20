@@ -1,0 +1,28 @@
+{
+  "name": "cs5610-airbnb-listings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julia-weppler-1/cs5610-airbnb-listings.git"
+  },
+  "keywords": [],
+  "author": "Julia Weppler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/julia-weppler-1/cs5610-airbnb-listings/issues"
+  },
+  "homepage": "https://github.com/julia-weppler-1/cs5610-airbnb-listings#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.0",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.6.0",
+    "prettier": "^3.8.3"
+  }
+}
